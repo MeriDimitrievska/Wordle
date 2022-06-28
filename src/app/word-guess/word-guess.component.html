@@ -1,0 +1,114 @@
+<table id="tableTextBox">
+    <tr id="row1">
+        <td id="row11">
+           <span>{{letters1[0]}}</span>
+        </td>
+        <td id="row12">
+         <span>{{letters1[1]}}</span>
+         </td>
+         <td id="row13">
+            <span>{{letters1[2]}}</span>
+         </td>
+         <td id="row14">
+            <span>{{letters1[3]}}</span>
+         </td>
+         <td id="row15">
+            <span>{{letters1[4]}}</span>
+         </td>
+    </tr>
+    <tr id="row2">
+        <td  id="row21">
+         <span>{{letters2[0]}}</span>
+        </td>
+        <td  id="row22">
+         <span>{{letters2[1]}}</span>
+         </td>
+         <td  id="row23">
+            <span>{{letters2[2]}}</span>
+         </td>
+         <td  id="row24">
+            <span>{{letters2[3]}}</span>
+         </td>
+         <td  id="row25">
+            <span>{{letters2[4]}}</span>
+         </td>
+    </tr>
+    <tr id="row3">
+        <td  id="row31">
+         <span>{{letters3[0]}}</span>
+        </td>
+        <td  id="row32">
+         <span>{{letters3[1]}}</span>
+         </td>
+         <td  id="row33">
+            <span>{{letters3[2]}}</span>
+         </td>
+         <td  id="row34">
+            <span>{{letters3[3]}}</span>
+         </td>
+         <td  id="row35">
+            <span>{{letters3[4]}}</span>
+         </td>
+    </tr>
+    <tr id="row4">
+        <td  id="row41">
+         <span>{{letters4[0]}}</span>
+        </td>
+        <td  id="row42">
+         <span>{{letters4[1]}}</span>
+         </td>
+         <td  id="row43">
+            <span>{{letters4[2]}}</span>
+         </td>
+         <td  id="row44">
+            <span>{{letters4[3]}}</span>
+         </td>
+         <td  id="row45">
+            <span>{{letters4[4]}}</span>
+         </td>
+    </tr>
+    <tr id="row5">
+        <td id="row51">
+         <span>{{letters5[0]}}</span>
+        </td>
+        <td id="row52">
+         <span>{{letters5[1]}}</span>
+         </td>
+         <td id="row53">
+            <span>{{letters5[2]}}</span>
+         </td>
+         <td id="row54">
+            <span>{{letters5[3]}}</span>
+         </td>
+         <td id="row55">
+            <span>{{letters5[4]}}</span>
+         </td>
+    </tr>
+    <tr id="row6">
+        <td  id="row61">
+         <span>{{letters6[0]}}</span>
+        </td>
+        <td  id="row62">
+         <span>{{letters6[1]}}</span>
+         </td>
+         <td  id="row63">
+            <span>{{letters6[2]}}</span>
+         </td>
+         <td  id="row64">
+            <span>{{letters6[3]}}</span>
+         </td>
+         <td  id="row65">
+            <span>{{letters6[4]}}</span>
+         </td>
+    </tr>
+</table>
+
+<form>
+   <p id="wrd">Enter word from 5 characters</p>
+   <input type="text" [maxLength]="5" id="txtBox"> <br/> <br/>
+   <button type="button" (click)="onClick()" id="btn">Check Word</button>
+   <button type="submit">New Game</button>
+   <p>{{message}}</p>
+  <!-- <p>{{wordTrue}}</p>-->
+</form>
+
